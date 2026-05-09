@@ -4,7 +4,7 @@
 ## 配置文件分组
 每个应用模块都有对应的配置文件，所有系统参数配置放在nacos管理，本地配置文件，用于设置连接nacos
 
-![](/img/admin_resources_20241120182351.png)
+![](./img/admin_resources_20241120182351.png)
 
 ~~~
 spring:
@@ -38,15 +38,15 @@ spring:
 ## nacos配置
 * 先配置命名空间，命名空间名称可根据开发者需要来修改，但是需要和应用模块中的application配置文件中的配置相匹配
 
-![](/img/nacos_1_20241121113426.png)
+![](./img/nacos_1_20241121113426.png)
 
 * 命名空间创建后导入配置文件，或手动创建配置文件将内容复制进去
 
-![](/img/nacos_2_20241121115506.png)
+![](./img/nacos_2_20241121115506.png)
 
 * 创建配置文件，选择YAML格式（注意语法和缩进），Data ID和Group都需要和应用模块中的application配置文件中的配置相匹配，手动将官方配置文件内容粘贴进去
 
-![](/img/nacos_3_20241121120318.png)
+![](./img/nacos_3_20241121120318.png)
 
 ### 修改配置文件内容，主要包括（数据库连接和redis连接等），其他可根据开发需要修改
 #### admin管理后台配置文件
@@ -338,31 +338,31 @@ payConfig:
  + **如何查看获取支付宝的应用私钥和支付宝公钥？**  
 
 在[支付宝开放平台](https://open.alipay.com/dev/workspace) 需要创建一个【网页&移动应用】，类似： 
-![](/img/yesyesapi_20220217111107_7bac6d16196b2340e5eedfb877b1dd9c.png)  
+![](./img/yesyesapi_20220217111107_7bac6d16196b2340e5eedfb877b1dd9c.png)  
 
 然后 【+添加能力】，开通签约【电脑网站支付】：  
-![](/img/yesyesapi_20220217111139_7a1bbd89b48782ed779aeffc3316e5a2.png)  
+![](./img/yesyesapi_20220217111139_7a1bbd89b48782ed779aeffc3316e5a2.png)  
 
 最后，在应用信息，可以设置和查看支付宝的应用私钥和支付宝公钥。  
 
-![](/img/yesyesapi_20220217110645_712f3b44da6d90b8a303a05fc4651f61.png)
+![](./img/yesyesapi_20220217110645_712f3b44da6d90b8a303a05fc4651f61.png)
 
 发送输入验证码：  
-![](/img/yesyesapi_20220217111313_0eb48acc3128a7be134952f900f69b06.png)  
+![](./img/yesyesapi_20220217111313_0eb48acc3128a7be134952f900f69b06.png)  
 
 重新上传设置应用私钥，和复制支付宝公钥。  
-![](/img/yesyesapi_20220217111445_5e63ee4cc3f2794b92877c1e5871093a.png)  
+![](./img/yesyesapi_20220217111445_5e63ee4cc3f2794b92877c1e5871093a.png)  
 
  + **如何获取微信支付配置？**  
 
 登录[微信支付平台](https://pay.weixin.qq.com)后，在【账户中心】-【API安全】，  
 通过【商户API证书】获取 ```merchantSerialNumber``` 商户序列号 ；通过【APIv3密钥】可以获取配置项 ```apiV3Key```；通过 【平台证书】获取 ```privateKey``` 支付私钥。  
 
-![](/img/WX20250228-184458.png)  
+![](./img/WX20250228-184458.png)  
 
 然后，在【产品中心】-【AppID账号管理】可以获取配置项 ```appId``` 和 ```merchantId``` 商户ID。最后 ```notifyUrl``` 是当前接口平台的微信支付回调地址，只需要替换自己的域名。  
 
-![](/img/WX20250228-185321.png)  
+![](./img/WX20250228-185321.png)  
 
 #### gateway网关配置文件
 

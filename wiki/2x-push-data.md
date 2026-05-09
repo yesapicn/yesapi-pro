@@ -124,7 +124,7 @@ APPKEY: 开发者应用APPKEY
 
 目前，使用RabbitMQ作为异步队列。  
 
-![](/img/push_data_design.png) 
+![](./img/push_data_design.png) 
 
 
 

@@ -73,7 +73,7 @@ $di->filter = new \App\Common\SignFilter();
 
 保存后，刷新在线接口文档，可以看到以下3个新增加的公共接口参数。  
 
-![](/img/yesyesapi_20200429235914_ebeca5a4bc364381e94c0c28386c0442.png)  
+![](./img/yesyesapi_20200429235914_ebeca5a4bc364381e94c0c28386c0442.png)  
 
 > 温馨提示：熟悉后，你可根据项目的需要调整公共参数的规则，例如是否必须。  
 
@@ -84,7 +84,7 @@ $di->filter = new \App\Common\SignFilter();
 接下来，你可以进行接口的测试，验证新的加密方案是否已生效。  
 
 例如，故意填写错误的签名sign参数。  
-![](/img/yesyesapi_20200429234458_4043caf12098932748e5f278d5f8ec8f.png)  
+![](./img/yesyesapi_20200429234458_4043caf12098932748e5f278d5f8ec8f.png)  
 
 会如期得到“签名错误”的返回结果。  
 

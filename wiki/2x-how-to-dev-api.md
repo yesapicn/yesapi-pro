@@ -351,7 +351,7 @@ public class Demo {
 ```
 
 保存后，访问接口文档列表，可以看到以下新接口：  
-![](/img/20250305-1553042x.png)
+![](./img/20250305-1553042x.png)
 
 如果需要编写后台接口，则需要放置在cn/yesapi/java/admin/目录下，其他开发要求类似。
 
@@ -397,7 +397,7 @@ public class AuthController extends BaseController {
 }
 ```
 
-![](/img/20e236e0-243e-4eff-9967-151f4ba57202.png)  
+![](./img/20e236e0-243e-4eff-9967-151f4ba57202.png)  
 
 其中，接口参数的类及注解写法请参考文件，api/src/main/java/cn/yesapi/java/api/official/validator/AuthApplyToken.java。
 ```java
@@ -419,7 +419,7 @@ public class AuthApplyToken {
 
 最后，接口详情页，文档展示效果如下：  
 
-![](/img/20250305-1614162x.png)  
+![](./img/20250305-1614162x.png)  
 
 ## 如何取消接口令牌验证？
 

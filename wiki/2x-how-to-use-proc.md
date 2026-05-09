@@ -9,7 +9,7 @@
 
 > ** 注意：表单中存储过程名称必须与存储过程定义内容里的名称保持一致 **
 
-![](/img/proc-1.jpg)
+![](./img/proc-1.jpg)
 
 * 保存配置：仅保存存储过程的配置信息，比如开关、备注等
 * 保存并运行：保存存储过程的配置信息+执行存储过程定义的内容（如果强制覆盖，会先删除原有的存储过程，再新建）
@@ -28,7 +28,7 @@
 CALL member_test('test',@m_count)
 
 ```
-![](/img/proc-2.jpg)
+![](./img/proc-2.jpg)
 
 ### PHP代码
 
@@ -39,7 +39,7 @@ $procParams = array('test','@m_count'); //存储过程传参
 $rows = \PhalApi\DI()->databaseProc->call($procName,$procParams);
 
 ```
-![](/img/proc-3.jpg)
+![](./img/proc-3.jpg)
 
 
 ## 接口中的使用
@@ -163,14 +163,14 @@ class ProcTest extends Api {
 > 管理后台 > 数据库管理 > 存储过程管理 > 编辑(右侧)
 
 
-![](/img/proc-4.jpg)
+![](./img/proc-4.jpg)
 
 ## 修改记录
 > 为了方便找回之前对存储过程的修改，我们也做了保存最近20次修改的历史记录
 
 > 管理后台 > 数据库管理 > 存储过程管理 > 修改记录
 
-![](/img/proc-5.jpg)
+![](./img/proc-5.jpg)
 
 ## 注意事项
 * ** 在编写调用存储过程SQL语句的时候，不要用分号（;）结束语句 **

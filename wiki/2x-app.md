@@ -17,10 +17,10 @@
 #### 2.安装flutter插件
 
 点击Android Studio菜单，进入属性界面：  
-![安装flutter插件](/img/img2.png)
+![安装flutter插件](./img/img2.png)
 
 选择【Plugins】选项，搜索Flutter，安装Flutter插件和国际化插件：  
-![安装flutter插件](/img/img1.png)
+![安装flutter插件](./img/img1.png)
 
 安装完成后需要重启Android Studio才能启用插件。
 
@@ -30,7 +30,7 @@
 
 2. 点击【Pub get】下载项目相关的依赖库。  
 
-![安装flutter插件](/img/img3.png)
+![安装flutter插件](./img/img3.png)
 
 3. 安装完毕即可以连接真机或者模拟器运行了。
 
@@ -39,11 +39,11 @@
 ### Android端修改方法
 
 1. 修改应用名：直接AndroidManifest.xml文件下修改：  
-![安装flutter插件](/img/img4.png)
+![安装flutter插件](./img/img4.png)
 
 2. 修改包名：打开android/app/build.gradle 文件，找到applicationId，设置相应的包名。  
 
-![安装flutter插件](/img/img6.png)
+![安装flutter插件](./img/img6.png)
 
 3. Android App图标存放位置：
 
@@ -56,7 +56,7 @@
 	
 	IOS端需要在Mac系统下，使用xcode打开`/ios/Runner.xcworkspace`工程文件，打开以下选项中进行修改：
 
-![安装flutter插件](/img/img5.png)
+![安装flutter插件](./img/img5.png)
 
 2. IOS App图标存放位置：
 

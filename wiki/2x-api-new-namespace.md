@@ -38,7 +38,7 @@ composer dumpautoload
 
 根据上面的配置，以及PhalApi的规范，接口目录放置在src目录里，这里需要添加的接口目录是：```src/teacher```。  
 
-![](/img/yesyesapi_20210624112006_a36e48f043f5ed3e0c3091f086375334.png)  
+![](./img/yesyesapi_20210624112006_a36e48f043f5ed3e0c3091f086375334.png)  
 
 随后，可以继续添加 ```src/teacher/Api```目录，放置你的接口PHP代码文件。 
 
@@ -90,7 +90,7 @@ $uriMap = array(
 ```
 
 就可以解决访问路径不对的问题，例如：  
-![](/img/yesyesapi_20210624113257_7cb5e4e7d970318c077fcefe8479121d.png)  
+![](./img/yesyesapi_20210624113257_7cb5e4e7d970318c077fcefe8479121d.png)  
 
 此外，还可以修改 ./language/zh_cn/common.php 翻译文件，最后添加一行（注意双斜杠）：  
 ```php
@@ -98,7 +98,7 @@ $uriMap = array(
 ```
 
 解决接口列表页的名称显示问题。例如：  
-![](/img/yesyesapi_20210624113515_ddb5e5d828c381a136abf1c51a355f9a.png)  
+![](./img/yesyesapi_20210624113515_ddb5e5d828c381a136abf1c51a355f9a.png)  
 
 ## 第6步，接口列表文档的显示控制
 

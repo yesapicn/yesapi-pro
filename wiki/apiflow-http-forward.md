@@ -9,26 +9,26 @@
 1、登录接口管理平台。
 
 2、创建新接口，选用：接口编排 模式。  
-![](/img/admin/apiflow/2.png)  
+![](./img/admin/apiflow/2.png)  
 
 3、进行接口可视化编排，增加“HTTP转发”新节点  
-![](/img/admin/apiflow/3.png)  
+![](./img/admin/apiflow/3.png)  
 
 4、配置HTTP接口上游地址、接口参数和请求头等配置。
 支持：IP哈希和按权重请求上游接口再种转发模式。  
-![](/img/admin/apiflow/4.png)  
+![](./img/admin/apiflow/4.png)  
 
 5、后台在线实时调试转发  
-![](/img/admin/apiflow/5.png)  
+![](./img/admin/apiflow/5.png)  
 
 6、一键发布新接口，设置接口图标、分配接口权限、填写接口描述等。  
-![](/img/admin/apiflow/6.png)  
+![](./img/admin/apiflow/6.png)  
 
 7、发布使用新接口  
-![](/img/admin/apiflow/7.png)  
+![](./img/admin/apiflow/7.png)  
 
 8、查看接口请求日志  
-![](/img/admin/apiflow/8.png)  
+![](./img/admin/apiflow/8.png)  
 
 
 ## 核心特性

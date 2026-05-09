@@ -15,14 +15,14 @@
 
 > 宜搭 是阿里巴巴自研的低代码应用构建平台，通过可视化拖拽的方式，传统模式下需要 2 周才能完成开发的应用，用宜搭 2 小时就能完成。
 
-![](./img/yida/yida1.png)
+![](../img/yida/yida1.png)
 
 
 
 
 而接口大师，则是通过一套快速研发、统一管理和对外开放API接口服务的软件产品、源代码和解决方案。它的特点是：低代码、可视化、容器化。接口大师是基于PhalApi开源接口框架，专为小白人员设计的接口开发神器。以前可能需要2小时才能完成开发的API接口，用接口大师大约2分钟就可以了。因为它可以自动生成接口源代码、自动生成接口文档、可视化连接数据库，你只需要编写SQL语句就能快速查取数据库。
 
-![](./img/yida/yida2.png)
+![](../img/yida/yida2.png)
 
 
 
@@ -31,7 +31,7 @@
 
 最终运行的钉钉应用效果截图是，
 
-![](./img/yida/yida3.png)
+![](../img/yida/yida3.png)
 
 
 
@@ -62,27 +62,27 @@ INSERT INTO `mother_love_e` (`id`, `name`, `code`, `other_name`, `sell_typ`, `se
 
 在插入测试数据后，进入接口大师的接口管理后台，
 
-![](./img/yida/yida4.png)
+![](../img/yida/yida4.png)
 
 再根据表单，填写API接口的信息，
 
-![](./img/yida/yida5.png)
+![](../img/yida/yida5.png)
 
-![](./img/yida/yida6.png)
+![](../img/yida/yida6.png)
 
 
 
 
 输入上数据相关的字段，生成代码并且发布（生成代码->添加草稿->保存并且发布。生成和保存成功时会提示：
 
-![](./img/yida/yida7.png)
+![](../img/yida/yida7.png)
 
 
 
 
 发布后，查看已经发布的API接口。
 
-![](./img/yida/yida8.png)
+![](../img/yida/yida8.png)
 
 
 
@@ -94,7 +94,7 @@ Ps：如果内部使用可以参考文档取消权限限制。
 
 
 
-![](./img/yida/yida9.png)
+![](../img/yida/yida9.png)
 
 
 
@@ -103,7 +103,7 @@ Ps：如果内部使用可以参考文档取消权限限制。
 
 如果需要连接和使用自己的数据库，可以在接口大师管理后台进行添加数据库连接配置。
 
-![](./img/yida/yida10.png)
+![](../img/yida/yida10.png)
 
 
 
@@ -114,11 +114,11 @@ Ps：如果内部使用可以参考文档取消权限限制。
 
 第一种：先新建远程API。
 
-![](./img/yida/yida11.png)
+![](../img/yida/yida11.png)
 
 然后，填入刚才用接口大师搭建和发布好的API接口信息。例如：接口地址。
 
-![](./img/yida/yida12.png)
+![](../img/yida/yida12.png)
 
 
 
@@ -127,52 +127,52 @@ Ps：如果内部使用可以参考文档取消权限限制。
 
 在 开发者-连接器工厂，进行添加。
 
-![](./img/yida/yida13.png)
+![](../img/yida/yida13.png)
 
 
 
 
 继续配置填写你自己API接口的信息。
 
-![](./img/yida/yida14.png)
+![](../img/yida/yida14.png)
 
 
 
 
 保存接口信息后，可以进行测试。
 
-![](./img/yida/yida15.png)
+![](../img/yida/yida15.png)
 
 
 
 
 测试成功了之后，就可以开始使用API了。
 
-![](./img/yida/yida16.png)
+![](../img/yida/yida16.png)
 
 
 
 
-![](./img/yida/yida20.png)
+![](../img/yida/yida20.png)
 
 
 
 
 输入对应的接口参数：
 
-![](./img/yida/yida21.png)
+![](../img/yida/yida21.png)
 
 
 
 
 就可以正常获取数据第二种连接器方式。
 
-![](./img/yida/yida22.png)
+![](../img/yida/yida22.png)
 
 
 
 
-![](./img/yida/yida23.png)
+![](../img/yida/yida23.png)
 
 
 

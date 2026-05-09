@@ -15,7 +15,7 @@
 通过HTTP/HTTPS协议，便可以请求接口。详细接口请求方式和参数可通过swagger在线文档查看各端的api接口
 例如：http://java.api.yesapi.cn/api/swagger-ui/index.html
 
-![](/img/swagger_1_20241122100422.png)
+![](./img/swagger_1_20241122100422.png)
 
 请求格式为：域名+应用模块名称+接口路径
 
@@ -37,7 +37,7 @@ POST请求方式一律使用json格式传递参数
 
 每个接口的参数，可以通过接口文档查看，例如：
 
-![](/img/swagger_2_20241122101820.png)
+![](./img/swagger_2_20241122101820.png)
  
 
 ## 返回结构
@@ -85,7 +85,7 @@ YesApi Java版使用的是access-token令牌验证的方式，在开始使用接
 
 令牌过期时间默认为30天，可以通过修改对应的应用模块的nacos配置文件的jwt里的exp来自行修改，单位秒数：
 
-![](/img/nacos_20241122102657.png)
+![](./img/nacos_20241122102657.png)
 
 ## 开放平台与管理后台的身份校验
 
