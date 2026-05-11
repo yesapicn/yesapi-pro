@@ -28,7 +28,7 @@
    - 新增：接口编排 模式。可进行接口可视化编排，增加“HTTP转发”新节点后，配置HTTP接口上游地址、接口参数和请求头等配置。  
    ![](./img/admin/apiflow/4.png)  
  + 技术文档：
-   - 新增文档：[可视化接口服务编排，HTTP转发](/apiflow-http-forward.md) 。
+   - 新增文档：[可视化接口服务编排，HTTP转发](./apiflow-http-forward.md) 。
  + HTTP接口转发可视化编排发布后示例接口：
    ![](./img/admin/apiflow/7.png)  
 
@@ -88,7 +88,7 @@ file:
 
 **4、新增：YesAPI接口平台的SDK，下载和示例使用。主要用于：设置接口域名、申请获取令牌Token、以及接口请求调用和返回结果。**  
 
- + Wiki开发文档：增加【[SDK客户端](/sdk.md)】 ，包括：curl、Java、Python、Golang、PHP、Nodejs、C-sharp等语言的SDK包。  
+ + Wiki开发文档：增加【[SDK客户端](./sdk.md)】 ，包括：curl、Java、Python、Golang、PHP、Nodejs、C-sharp等语言的SDK包。  
 
 **5、UI升级：OpenAPI接口列表，升级扩展支持：卡片、列表、表格 三种展示方式，支持分页、价格排序、接口检索等操作。**
 ![](./img/admin/admin_2025-07-15T01-00-00.594Z.png)  
@@ -161,7 +161,7 @@ file:
    - 新增：OpenAPI接口返回数据data的加密。  
    ![](./img/api/1744789960342.jpg)  
  + 文档：
-   - 新增：[3.2 接口返回数据加密](/2x-return-data-encrypt.md)。   
+   - 新增：[3.2 接口返回数据加密](./2x-return-data-encrypt.md)。   
 
 **2、新增： 数据报表统计，每日平台统计汇总数据**  
 
